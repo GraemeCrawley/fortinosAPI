@@ -3,7 +3,6 @@ import unicodedata
 
 
 class QuotesSpider(scrapy.Spider):
-    f = open('helloworld.txt','w')
 
     name = "quotes"
     first_url = 'https://www.fortinos.ca'
@@ -24,9 +23,8 @@ class QuotesSpider(scrapy.Spider):
 
     def parseTwo(self, response):
         for i in response.css('div.main-nutrition-attr'):
-            label = ((i.css('span.nutrition-label').extract_first()).encode('utf-8')).strip(' \t\n\r')
-            amount = ((i.css('div.main-nutrition-attr').extract_first()).encode('utf-8')).strip(' \t\n\r')
-            print label
-            print type(label)
-            print amount
-            print type(amount)
+            label = (i.css('span.nutrition-label::text').extract())[0].encode('utf-8').strip('\n\t')
+            amount = (i.css('div.main-nutrition-attr::text').extract())[1].encode('utf-8').strip('\n\t')
+            unit = amount.split(' ')[1]
+            amount = amount.split(' ')[0]
+            print label + ": " + amount + " " + unit

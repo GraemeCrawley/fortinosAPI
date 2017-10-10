@@ -1,6 +1,5 @@
-New Scrapy project 'quotes' created in:
-    /home/graeme/projects/fortinosAPI/quotes
+Scrapy 1.0.3 - no active project
 
-You can start your first spider with:
-    cd quotes
-    scrapy genspider example example.com
+Unknown command: crawl
+
+Use "scrapy" to see available commands

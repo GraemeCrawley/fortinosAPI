@@ -1,6 +1,6 @@
 Creating table foodInfo: 
 OK
-20310752_KG
+6.74
 Sodium: 62.80 mg
 Total Fat: 1.80 g
 Potassium: 324.10 mg

@@ -95,9 +95,12 @@ class QuotesSpider(scrapy.Spider):
                 name = i.css('span.js-product-entry-name::text')
             except AttributeError:
                 name = "NOT FOUND"  
+            
+            #PRICE IS GOOD TO GO
             try:
-                firstPrice = i.css('span.reg-price-text::text')
+                firstPrice = i.css('span.reg-price-text::text').extract()[0].encode('utf-8').strip('\n\t')
                 price = Decimal(firstPrice.split('$')[1])
+                print price
             except AttributeError:
                 price = 0.00    
             
@@ -112,7 +115,6 @@ class QuotesSpider(scrapy.Spider):
               'ID': ID,
               'brand': brand,
               'name': name,
-              'price': price,
             }
             #cursor.execute(add_data, data)
 

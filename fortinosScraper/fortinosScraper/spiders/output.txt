@@ -1,1668 +1,5940 @@
-<span class="reg-price-text">$13.49</span>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>62.80 mg
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>1.80 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>324.10 mg
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>0.00 g
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>25.70 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>65.50 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>1.80 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>65.50 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>62.80 mg
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>0.00 g
+					<span class="dv">0%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>25.70 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$6.74</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>324.10 mg
+									<span class="dv">9%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>440.00 mg
+										<span class="dv">18%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>14.00 g
+										<span class="dv">22%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>150.00 mg
+										<span class="dv">4%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>23.00 g
+										<span class="dv">8%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>7.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>15.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>14.00 g
+					<span class="dv">22%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>15.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>440.00 mg
+					<span class="dv">18%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>23.00 g
+					<span class="dv">8%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>7.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$17.99</span>
-<span class="reg-price-text">$15.60</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>150.00 mg
+									<span class="dv">4%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>420.00 mg
+										<span class="dv">18%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>10.00 g
+										<span class="dv">15%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>16.00 g
+										<span class="dv">5%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>9.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>20.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>10.00 g
+					<span class="dv">15%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>20.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>420.00 mg
+					<span class="dv">18%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>16.00 g
+					<span class="dv">5%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>9.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$8.49</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>350.00 mg
+										<span class="dv">15%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>7.00 g
+										<span class="dv">11%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>17.00 g
+										<span class="dv">6%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>16.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>30.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>7.00 g
+					<span class="dv">11%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>30.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>350.00 mg
+					<span class="dv">15%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>17.00 g
+					<span class="dv">6%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>16.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$11.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>260.00 mg
+										<span class="dv">11%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>13.00 g
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>16.00 g
+										<span class="dv">5%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>12.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>30.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>13.00 g
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>30.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>260.00 mg
+					<span class="dv">11%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>16.00 g
+					<span class="dv">5%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>12.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$7.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>490.00 mg
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>2.00 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>12.00 g
+										<span class="dv">4%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>18.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>45.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>2.00 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>45.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>490.00 mg
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>12.00 g
+					<span class="dv">4%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>18.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$13.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>62.80 mg
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>1.80 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>324.10 mg
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>0.00 g
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>25.70 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>65.50 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>1.80 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>65.50 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>62.80 mg
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>0.00 g
+					<span class="dv">0%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>25.70 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$14.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>324.10 mg
+									<span class="dv">9%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>440.00 mg
+										<span class="dv">18%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>4.50 g
+										<span class="dv">7%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>8.00 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>11.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>30.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>4.50 g
+					<span class="dv">7%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>30.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>440.00 mg
+					<span class="dv">18%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>8.00 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>11.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$15.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>740.00 mg
+										<span class="dv">31%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>25.00 g
+										<span class="dv">38%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>51.00 g
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>22.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>55.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>25.00 g
+					<span class="dv">38%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>55.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>740.00 mg
+					<span class="dv">31%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>51.00 g
+					<span class="dv">17%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>22.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$11.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>490.00 mg
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>23.00 g
+										<span class="dv">35%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>19.00 g
+										<span class="dv">6%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>17.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>90.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>23.00 g
+					<span class="dv">35%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>90.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>490.00 mg
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>19.00 g
+					<span class="dv">6%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>17.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$4.29</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>670.00 mg
+										<span class="dv">28%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>8.00 g
+										<span class="dv">12%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>38.00 g
+										<span class="dv">13%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>4.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>35.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>8.00 g
+					<span class="dv">12%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>35.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>670.00 mg
+					<span class="dv">28%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>38.00 g
+					<span class="dv">13%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>4.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$12.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>650 mg
+										<span class="dv">27%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>11 g
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>600 mg
+										<span class="dv">13%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>52 g
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>18 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>30 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>11 g
+					<span class="dv">17%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>30 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>650 mg
+					<span class="dv">27%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>52 g
+					<span class="dv">17%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>18 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>600 mg
+									<span class="dv">13%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>490.00 mg
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>6.00 g
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>3.00 g
+										<span class="dv">1%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>21.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>85.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>6.00 g
+					<span class="dv">9%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>85.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>490.00 mg
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>3.00 g
+					<span class="dv">1%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>21.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.79</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>390.00 mg
+										<span class="dv">16%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>11.00 g
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>320.00 mg
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>13.00 g
+										<span class="dv">4%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>13.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>30.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>11.00 g
+					<span class="dv">17%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>30.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>390.00 mg
+					<span class="dv">16%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>13.00 g
+					<span class="dv">4%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>13.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$6.79</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>320.00 mg
+									<span class="dv">9%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>580.00 mg
+										<span class="dv">24%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>7.00 g
+										<span class="dv">11%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>51.00 g
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>28.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>45.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>7.00 g
+					<span class="dv">11%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>45.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>580.00 mg
+					<span class="dv">24%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>51.00 g
+					<span class="dv">17%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>28.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$17.99</span>
-<span class="reg-price-text">$12.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>690.00 mg
+										<span class="dv">29%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>13.00 g
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>54.00 g
+										<span class="dv">18%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>22.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>30.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>13.00 g
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>30.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>690.00 mg
+					<span class="dv">29%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>54.00 g
+					<span class="dv">18%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>22.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$9.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>600.00 mg
+										<span class="dv">25%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>10.00 g
+										<span class="dv">15%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>18.00 g
+										<span class="dv">6%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>20.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>35.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>10.00 g
+					<span class="dv">15%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>35.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>600.00 mg
+					<span class="dv">25%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>18.00 g
+					<span class="dv">6%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>20.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$12.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>470.00 mg
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>14.00 g
+										<span class="dv">21%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>18.00 g
+										<span class="dv">6%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>16.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>35.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>14.00 g
+					<span class="dv">21%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>35.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>470.00 mg
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>18.00 g
+					<span class="dv">6%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>16.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$10.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>720.00 mg
+										<span class="dv">30%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>14.00 g
+										<span class="dv">22%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>37.00 g
+										<span class="dv">12%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>23.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>50.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>14.00 g
+					<span class="dv">22%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>50.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>720.00 mg
+					<span class="dv">30%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>37.00 g
+					<span class="dv">12%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>23.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>580.00 mg
+										<span class="dv">24%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>8.00 g
+										<span class="dv">12%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>250.00 mg
+										<span class="dv">7%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>16.00 g
+										<span class="dv">5%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>13.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>20.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>8.00 g
+					<span class="dv">12%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>20.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>580.00 mg
+					<span class="dv">24%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>16.00 g
+					<span class="dv">5%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>13.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$6.79</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>250.00 mg
+									<span class="dv">7%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>510.00 mg
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>4.00 g
+										<span class="dv">6%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>45.00 g
+										<span class="dv">15%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>12.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>20.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>4.00 g
+					<span class="dv">6%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>20.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>510.00 mg
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>45.00 g
+					<span class="dv">15%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>12.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$6.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>510.00 mg
+										<span class="dv">21%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>5.00 g
+										<span class="dv">8%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>54.00 g
+										<span class="dv">18%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>17.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>35.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>5.00 g
+					<span class="dv">8%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>35.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>510.00 mg
+					<span class="dv">21%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>54.00 g
+					<span class="dv">18%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>17.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>540.00 mg
+										<span class="dv">23%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>7.00 g
+										<span class="dv">11%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>41.00 g
+										<span class="dv">14%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>20.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>65.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>7.00 g
+					<span class="dv">11%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>65.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>540.00 mg
+					<span class="dv">23%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>41.00 g
+					<span class="dv">14%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>20.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$17.99</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>550.00 mg
+										<span class="dv">23%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>9.00 g
+										<span class="dv">14%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>38.00 g
+										<span class="dv">13%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>18.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>35.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>9.00 g
+					<span class="dv">14%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>35.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>550.00 mg
+					<span class="dv">23%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>38.00 g
+					<span class="dv">13%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>18.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>700.00 mg
+										<span class="dv">29%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>13.00 g
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>37.00 g
+										<span class="dv">12%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>23.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>85.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>13.00 g
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>85.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>700.00 mg
+					<span class="dv">29%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>37.00 g
+					<span class="dv">12%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>23.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.49</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>810 mg
+										<span class="dv">34%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>4 g
+										<span class="dv">6%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>600 mg
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>43 g
+										<span class="dv">14%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>17 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>35 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>4 g
+					<span class="dv">6%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>35 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>810 mg
+					<span class="dv">34%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>43 g
+					<span class="dv">14%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>17 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.79</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>600 mg
+									<span class="dv">17%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>580.00 mg
+										<span class="dv">24%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>8.00 g
+										<span class="dv">12%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>250.00 mg
+										<span class="dv">7%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>16.00 g
+										<span class="dv">5%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>13.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>20.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>8.00 g
+					<span class="dv">12%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>20.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>580.00 mg
+					<span class="dv">24%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>16.00 g
+					<span class="dv">5%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>13.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$9.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>250.00 mg
+									<span class="dv">7%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>800.00 mg
+										<span class="dv">33%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>13.00 g
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>35.00 g
+										<span class="dv">12%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>18.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>60.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>13.00 g
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>60.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>800.00 mg
+					<span class="dv">33%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>35.00 g
+					<span class="dv">12%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>18.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>700.00 mg
+										<span class="dv">29%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>13.00 g
+										<span class="dv">20%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>35.00 g
+										<span class="dv">12%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>19.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>35.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>13.00 g
+					<span class="dv">20%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>35.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>700.00 mg
+					<span class="dv">29%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>35.00 g
+					<span class="dv">12%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>19.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$2.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>560.00 mg
+										<span class="dv">23%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>20.00 g
+										<span class="dv">31%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>38.00 g
+										<span class="dv">13%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>9.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>40.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>20.00 g
+					<span class="dv">31%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>40.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>560.00 mg
+					<span class="dv">23%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>38.00 g
+					<span class="dv">13%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>9.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$6.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>1030.00 mg
+										<span class="dv">43%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>38.00 g
+										<span class="dv">58%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>64.00 g
+										<span class="dv">21%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>18.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>45.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>38.00 g
+					<span class="dv">58%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>45.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>1030.00 mg
+					<span class="dv">43%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>64.00 g
+					<span class="dv">21%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>18.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$4.29</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>620.00 mg
+										<span class="dv">26%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>19.00 g
+										<span class="dv">29%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>10.00 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>2.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>40.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>19.00 g
+					<span class="dv">29%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>40.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>620.00 mg
+					<span class="dv">26%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>10.00 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>2.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>380.00 mg
+										<span class="dv">16%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>12.00 g
+										<span class="dv">18%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>9.00 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>1.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>0.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>12.00 g
+					<span class="dv">18%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>0.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>380.00 mg
+					<span class="dv">16%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>9.00 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>1.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>440.00 mg
+										<span class="dv">18%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>5.00 g
+										<span class="dv">8%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>7.00 g
+										<span class="dv">2%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>1.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>15.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>5.00 g
+					<span class="dv">8%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>15.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>440.00 mg
+					<span class="dv">18%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>7.00 g
+					<span class="dv">2%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>1.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$4.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>330.00 mg
+										<span class="dv">14%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>6.00 g
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>180.00 mg
+										<span class="dv">5%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>10.00 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>2.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>15.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>6.00 g
+					<span class="dv">9%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>15.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>330.00 mg
+					<span class="dv">14%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>10.00 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>2.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>180.00 mg
+									<span class="dv">5%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>690.00 mg
+										<span class="dv">29%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>8.00 g
+										<span class="dv">12%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>21.00 g
+										<span class="dv">7%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>3.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>15.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>8.00 g
+					<span class="dv">12%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>15.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>690.00 mg
+					<span class="dv">29%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>21.00 g
+					<span class="dv">7%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>3.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$3.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>390.00 mg
+										<span class="dv">16%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>16.00 g
+										<span class="dv">25%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>11.00 g
+										<span class="dv">4%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>2.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>30.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>16.00 g
+					<span class="dv">25%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>30.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>390.00 mg
+					<span class="dv">16%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>11.00 g
+					<span class="dv">4%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>2.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$13.21</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>62.80 mg
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>1.80 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>324.10 mg
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>0.00 g
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>25.70 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>65.50 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>1.80 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>65.50 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>62.80 mg
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>0.00 g
+					<span class="dv">0%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>25.70 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$4.99</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>324.10 mg
+									<span class="dv">9%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>360.00 mg
+										<span class="dv">15%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>15.00 g
+										<span class="dv">23%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>0.00 mg
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>10.00 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>2.00 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>25.00 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>15.00 g
+					<span class="dv">23%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>25.00 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>360.00 mg
+					<span class="dv">15%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>10.00 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>2.00 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$8.32</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>0.00 mg
+									<span class="dv">0%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>67.80 mg
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>9.20 g
+										<span class="dv">14%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>589.90 mg
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>0.10 g
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>19.70 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>97.20 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>9.20 g
+					<span class="dv">14%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>97.20 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>67.80 mg
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>0.10 g
+					<span class="dv">0%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>19.70 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$6.61</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>589.90 mg
+									<span class="dv">17%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>59.70 mg
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>11.00 g
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>295.70 mg
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>0.00 g
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>23.30 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>72.30 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>11.00 g
+					<span class="dv">17%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>72.30 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>59.70 mg
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>0.00 g
+					<span class="dv">0%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>23.30 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$11.67</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>295.70 mg
+									<span class="dv">9%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>62.80 mg
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>1.80 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>324.10 mg
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>0.00 g
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>25.70 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>65.50 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>1.80 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>65.50 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>62.80 mg
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>0.00 g
+					<span class="dv">0%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>25.70 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$17.18</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>324.10 mg
+									<span class="dv">9%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>59.70 mg
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>11.00 g
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>295.70 mg
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>0.00 g
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>23.30 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>72.30 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>11.00 g
+					<span class="dv">17%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>72.30 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>59.70 mg
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>0.00 g
+					<span class="dv">0%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>23.30 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$8.63</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>295.70 mg
+									<span class="dv">9%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>62.80 mg
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>1.80 g
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>324.10 mg
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>0.00 g
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>25.70 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>65.50 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>1.80 g
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>65.50 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>62.80 mg
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>0.00 g
+					<span class="dv">0%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>25.70 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
-<span class="reg-price-text">$8.72</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>324.10 mg
+									<span class="dv">9%</span>
+								</div>
+<type 'str'>
 <span class="nutrition-label">
 											Sodium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Sodium
+										</span>59.70 mg
+										<span class="dv">3%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Fat
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Fat
+										</span>11.00 g
+										<span class="dv">17%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Potassium
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Potassium
+										</span>295.70 mg
+										<span class="dv">9%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Total Carbohydrate
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Total Carbohydrate
+										</span>0.00 g
+										<span class="dv">0%</span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Protein
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Protein
+										</span>23.30 g
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 											Cholesterol
 										</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+										<span class="nutrition-label">
+											Cholesterol
+										</span>72.30 mg
+										<span class="dv"></span>
+									</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Fat
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Fat
+					</span>11.00 g
+					<span class="dv">17%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Cholesterol
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Cholesterol
+					</span>72.30 mg
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Sodium
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Sodium
+					</span>59.70 mg
+					<span class="dv">3%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Total Carbohydrate
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Total Carbohydrate
+					</span>0.00 g
+					<span class="dv">0%</span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 						Protein
 					</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+					<span class="nutrition-label">
+						Protein
+					</span>23.30 g
+					<span class="dv"></span>
+				</div>
+<type 'str'>
 <span class="nutrition-label">
 										Potassium
 									</span>
+<type 'str'>
+<div class="main-nutrition-attr first">
+									<span class="nutrition-label">
+										Potassium
+									</span>295.70 mg
+									<span class="dv">9%</span>
+								</div>
+<type 'str'>

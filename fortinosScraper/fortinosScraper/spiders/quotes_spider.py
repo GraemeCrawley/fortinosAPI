@@ -1,4 +1,5 @@
 import scrapy
+import unicodedata
 
 
 class QuotesSpider(scrapy.Spider):
@@ -22,7 +23,10 @@ class QuotesSpider(scrapy.Spider):
             j=j+1
 
     def parseTwo(self, response):
-        print response.css('span.reg-price-text').extract_first()
         for i in response.css('div.main-nutrition-attr'):
-            print i.css('span.nutrition-label').extract_first()
-
+            label = ((i.css('span.nutrition-label').extract_first()).encode('utf-8')).strip(' \t\n\r')
+            amount = ((i.css('div.main-nutrition-attr').extract_first()).encode('utf-8')).strip(' \t\n\r')
+            print label
+            print type(label)
+            print amount
+            print type(amount)

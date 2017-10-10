@@ -1,0 +1,6 @@
+New Scrapy project 'quotes' created in:
+    /home/graeme/projects/fortinosAPI/quotes
+
+You can start your first spider with:
+    cd quotes
+    scrapy genspider example example.com

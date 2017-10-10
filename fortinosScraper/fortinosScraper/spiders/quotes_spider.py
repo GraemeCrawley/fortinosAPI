@@ -12,15 +12,14 @@ import unicodedata
 class QuotesSpider(scrapy.Spider): 
 
 
-    cnx = mysql.connector.connect(user='root', password='Twelve-4', database='FORTINOS')
+    cnx1 = mysql.connector.connect(user='root', password='Twelve-4', database='FORTINOS')
 
-    cursor = cnx.cursor()
+    cursor1 = cnx1.cursor(buffered=True)
 
-    cursor.execute("DROP database FORTINOS")
-    cursor.execute("CREATE database FORTINOS")
+    DB_NAME1 = 'FORTINOS'
 
-    DB_NAME = 'FORTINOS'
-
+    cursor1.execute("DROP database FORTINOS")
+    cursor1.execute("CREATE database FORTINOS")
 
 
     TABLES = {}
@@ -30,25 +29,19 @@ class QuotesSpider(scrapy.Spider):
         "  `brand` varchar(100) NOT NULL,"
         "  `name` varchar(100) NOT NULL,"
         "  `price` decimal(6,2) NOT NULL,"
-        "  `protein` varchar(100) NOT NULL ,"
         "  `proteinAmount` decimal(6,2) NOT NULL ,"
-        "  `proteinUnit` varchar(100) NOT NULL ,"
-        "  `carbs` varchar(100) NOT NULL ,"
         "  `carbsAmount` decimal(6,2) NOT NULL ,"
-        "  `carbsUnit` varchar(100) NOT NULL ,"
-        "  `fat` varchar(100) NOT NULL ,"
         "  `fatAmount` decimal(6,2) NOT NULL ,"
-        "  `fatUnit` varchar(100) NOT NULL, "
         "  PRIMARY KEY (`ID`)"
-        ") ENGINE=InnoDB")
+        ") ENGINE=InnoDB;")
 
 
     try:
-        cnx.database = DB_NAME  
+        cnx1.database = DB_NAME1 
     except mysql.connector.Error as err:
         if err.errno == errorcode.ER_BAD_DB_ERROR:
             create_database(cursor)
-            cnx.database = DB_NAME
+            cnx1.database = DB_NAME1
         else:
             print(err)
             exit(1)
@@ -56,7 +49,7 @@ class QuotesSpider(scrapy.Spider):
     for name, ddl in TABLES.iteritems():
         try:
             print("Creating table {}: ".format(name))
-            cursor.execute(ddl)
+            cursor1.execute(ddl)
         except mysql.connector.Error as err:
             if err.errno == errorcode.ER_TABLE_EXISTS_ERROR:
                 print("already exists.")
@@ -74,6 +67,10 @@ class QuotesSpider(scrapy.Spider):
         first_url + '/search/page/~item/chicken/~sort/recommended/~selected/true',
     ]
 
+    cnx1.commit()
+
+    cursor1.close()
+    cnx1.close()
     
 
 
@@ -86,13 +83,29 @@ class QuotesSpider(scrapy.Spider):
             if next_page is not None:
                 next_page = response.urljoin(next_page)
                 yield scrapy.Request(next_page, callback=self.parseTwo)
-            else:
-                closeCursor
             j=j+1
 
 
     def parseTwo(self, response):
+
+
+        cnx2 = mysql.connector.connect(user='root', password='Twelve-4', database='FORTINOS')
+
+        cursor2 = cnx2.cursor(buffered=True)
+
+        DB_NAME2 = 'FORTINOS'
         
+        try:
+            cnx2.database = DB_NAME2
+        except mysql.connector.Error as err:
+            if err.errno == errorcode.ER_BAD_DB_ERROR:
+                create_database(cursor)
+                cnx2.database = DB_NAME2
+            else:
+                print(err)
+                exit(1)
+
+
         brand = response.css('div.row-product-name').css('span.product-sub-title::text').extract()[0]
         unicodedata.normalize('NFKD', brand).encode('ascii','ignore')
         brand = brand.strip(' \n\t')
@@ -100,7 +113,7 @@ class QuotesSpider(scrapy.Spider):
     
 
         try:
-            name = response.css('div.row-product-name::text').extract()[0].encode('utf-8').strip('\n\t')
+            name = response.css('div.row-product-name').css('h1.product-name::text').extract()[1].encode('utf-8').strip('\n\t')
         except IndexError:
             name = "NOT FOUND"  
         
@@ -114,22 +127,15 @@ class QuotesSpider(scrapy.Spider):
         #ID IS GOOD TO GO
         try:
             ID = (response.css('span.product-number').css('span.number::text')).extract()[0].encode('utf-8').strip('\n\t')
-            print ID
         except IndexError:
             ID = "NOT FOUND"
         
         amount = 0.00
         label = " "
         unit = " "
-        carbs = " "
         carbsAmt = 0.00
-        carbsUnit = " "
-        protein = " "
         proteinAmt = 0.00
-        proteinUnit = " "
-        fat = " "
         fatAmt = 0.00
-        fatUnit = " "
 
         for i in response.css('div.main-nutrition-attr'):
             label = (i.css('span.nutrition-label::text').extract())[0].encode('utf-8').strip('\n\t')
@@ -137,46 +143,34 @@ class QuotesSpider(scrapy.Spider):
             unit = amount.split(' ')[1]
             amount = amount.split(' ')[0]
             if label == "Total Carbohydrate":
-                carbs = label
                 carbsAmt = amount
-                carbsUnit = unit
             if label == "Protein":
-                protein = label
                 proteinAmt = amount
-                proteinUnit = unit
             if label == "Total Fat":
-                fat = label
                 fatAmt = amount
-                fatUnit = label
 
         data = {
           'ID': ID,
           'brand': brand,
           'name': name,
           'price': price,
-          'protein': protein,
           'proteinAmount': proteinAmt,
-          'proteinUnit': proteinUnit,
-          'carbs': carbs,
           'carbsAmount': carbsAmt,
-          'carbsUnit': carbsUnit,
-          'fat': fat,
           'fatAmount': fatAmt,
-          'fatUnit': fatUnit
         }
-        print data
         
         add_data = ("INSERT INTO foodInfo "
-              "(ID, brand, name, price, protein, proteinAmount, proteinUnit, carbs, carbsAmount, carbsUnit, fat, fatAmount, fatUnit) "
-              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(protein)s, %(proteinAmount)s, %(proteinUnit)s, %(carbs)s, %(carbsAmount)s, %(carbsUnit)s, %(fat)s, %(fatAmount)s, %(fatUnit)s)")
+              "(ID, brand, name, price, proteinAmount, carbsAmount, fatAmount) "
+              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(proteinAmount)s, %(carbsAmount)s, %(fatAmount)s)")
 
+        
+        cursor2.execute(add_data, data)
+        
 
-        print "OKAY"
-        self.cursor.execute(add_data, data)
-        print "DONE"
+        cnx2.commit()
 
-       
-
+        cursor2.close()
+        cnx2.close()
     def create_database(cursor):
             try:
                 cursor.execute(
@@ -184,10 +178,4 @@ class QuotesSpider(scrapy.Spider):
             except mysql.connector.Error as err:
                 print("Failed creating database: {}".format(err))
                 exit(1)
-
-    def closeCursor():
-        self.cnx.commit()
-
-        self.cursor.close()
-        self.cnx.close()
 

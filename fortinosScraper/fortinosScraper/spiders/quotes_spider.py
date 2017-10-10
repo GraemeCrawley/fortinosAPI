@@ -11,20 +11,18 @@ import unicodedata
 
 class QuotesSpider(scrapy.Spider): 
 
+    searchItem = raw_input('Please enter your search term: ')
 
-    cnx1 = mysql.connector.connect(user='root', password='Twelve-4', database='FORTINOS')
+    cnx1 = mysql.connector.connect(user='root', password='', database='FORTINOS')
 
     cursor1 = cnx1.cursor(buffered=True)
 
     DB_NAME1 = 'FORTINOS'
 
-    cursor1.execute("DROP database FORTINOS")
-    cursor1.execute("CREATE database FORTINOS")
-
 
     TABLES = {}
-    TABLES['foodInfo'] = (
-        "CREATE TABLE `foodInfo` ("
+    TABLES[searchItem] = (
+        "CREATE TABLE " + searchItem + " ("
         "  `ID` varchar(100) NOT NULL,"
         "  `brand` varchar(100) NOT NULL,"
         "  `name` varchar(100) NOT NULL,"
@@ -32,6 +30,7 @@ class QuotesSpider(scrapy.Spider):
         "  `proteinAmount` decimal(6,2) NOT NULL ,"
         "  `carbsAmount` decimal(6,2) NOT NULL ,"
         "  `fatAmount` decimal(6,2) NOT NULL ,"
+        "  `PPG` decimal(6,2) ,"
         "  PRIMARY KEY (`ID`)"
         ") ENGINE=InnoDB;")
 
@@ -58,13 +57,10 @@ class QuotesSpider(scrapy.Spider):
         else:
             print("OK")
 
-    searchItem = "chicken"
-
-    
     name = "quotes"
     first_url = 'https://www.fortinos.ca'
     start_urls = [
-        first_url + '/search/page/~item/chicken/~sort/recommended/~selected/true',
+        first_url + '/search/page/~item/' + searchItem + '/~sort/recommended/~selected/true',
     ]
 
     cnx1.commit()
@@ -98,7 +94,7 @@ class QuotesSpider(scrapy.Spider):
         try:
             cnx2.database = DB_NAME2
         except mysql.connector.Error as err:
-            if err.errno == errorcode.ER_BAD_DB_ERROR:
+            if err.errno == errorcode.ER_BAD_NOTDB_ERROR:
                 create_database(cursor)
                 cnx2.database = DB_NAME2
             else:
@@ -129,6 +125,13 @@ class QuotesSpider(scrapy.Spider):
             ID = (response.css('span.product-number').css('span.number::text')).extract()[0].encode('utf-8').strip('\n\t')
         except IndexError:
             ID = "NOT FOUND"
+
+        try:
+            PPG = response.css('div.qty').css('span.reg-qty::text').extract()[0].encode('utf-8').strip('\n\t')
+            PPG = PPG.split('/')[0].split('$')[1]
+        except IndexError:
+            PPG = 0 
+
         
         amount = 0.00
         label = " "
@@ -141,13 +144,13 @@ class QuotesSpider(scrapy.Spider):
             label = (i.css('span.nutrition-label::text').extract())[0].encode('utf-8').strip('\n\t')
             amount = (i.css('div.main-nutrition-attr::text').extract())[1].encode('utf-8').strip('\n\t')
             unit = amount.split(' ')[1]
-            amount = amount.split(' ')[0]
+            amount = Decimal(amount.split(' ')[0])
             if label == "Total Carbohydrate":
-                carbsAmt = amount
+                carbsAmt = Decimal(amount)
             if label == "Protein":
-                proteinAmt = amount
+                proteinAmt = Decimal(amount)
             if label == "Total Fat":
-                fatAmt = amount
+                fatAmt = Decimal(amount)
 
         data = {
           'ID': ID,
@@ -157,11 +160,12 @@ class QuotesSpider(scrapy.Spider):
           'proteinAmount': proteinAmt,
           'carbsAmount': carbsAmt,
           'fatAmount': fatAmt,
+          'PPG':PPG
         }
         
-        add_data = ("INSERT INTO foodInfo "
-              "(ID, brand, name, price, proteinAmount, carbsAmount, fatAmount) "
-              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(proteinAmount)s, %(carbsAmount)s, %(fatAmount)s)")
+        add_data = ("INSERT INTO " + self.searchItem + " "
+              "(ID, brand, name, price, proteinAmount, carbsAmount, fatAmount, PPG) "
+              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(proteinAmount)s, %(carbsAmount)s, %(fatAmount)s, %(PPG)s)")
 
         
         cursor2.execute(add_data, data)

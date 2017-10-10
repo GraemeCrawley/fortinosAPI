@@ -1,0 +1,22 @@
+Creating table foodInfo: 
+OK
+
+6.74
+20310752_KG
+{'price': Decimal('6.74'), 'proteinUnit': 'g', 'fat': 'Total Fat', 'protein': 'Protein', 'ID': '20310752_KG', 'carbs': 'Total Carbohydrate', 'name': '', 'fatAmount': '1.80', 'fatUnit': 'Total Fat', 'carbsUnit': 'g', 'carbsAmount': '0.00', 'proteinAmount': '25.70', 'brand': u''}
+
+15.60
+20028450_KG
+{'price': Decimal('15.60'), 'proteinUnit': 'g', 'fat': 'Total Fat', 'protein': 'Protein', 'ID': '20028450_KG', 'carbs': 'Total Carbohydrate', 'name': '', 'fatAmount': '1.80', 'fatUnit': 'Total Fat', 'carbsUnit': 'g', 'carbsAmount': '0.00', 'proteinAmount': '25.70', 'brand': u''}
+
+15.99
+20802755_EA
+{'price': Decimal('15.99'), 'proteinUnit': 'g', 'fat': 'Total Fat', 'protein': 'Protein', 'ID': '20802755_EA', 'carbs': 'Total Carbohydrate', 'name': '', 'fatAmount': '6.00', 'fatUnit': 'Total Fat', 'carbsUnit': 'g', 'carbsAmount': '3.00', 'proteinAmount': '21.00', 'brand': u''}
+
+14.99
+20787552_EA
+{'price': Decimal('14.99'), 'proteinUnit': 'g', 'fat': 'Total Fat', 'protein': 'Protein', 'ID': '20787552_EA', 'carbs': 'Total Carbohydrate', 'name': '', 'fatAmount': '4.50', 'fatUnit': 'Total Fat', 'carbsUnit': 'g', 'carbsAmount': '8.00', 'proteinAmount': '11.00', 'brand': u''}
+
+12.99
+20682496_EA
+{'price': Decimal('12.99'), 'proteinUnit': 'g', 'fat': 'Total Fat', 'protein': 'Protein', 'ID': '20682496_EA', 'carbs': 'Total Carbohydrate', 'name': '', 'fatAmount': '11.00', 'fatUnit': 'Total Fat', 'carbsUnit': 'g', 'carbsAmount': '13.00', 'proteinAmount': '13.00', 'brand': u''}

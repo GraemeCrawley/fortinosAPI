@@ -12,8 +12,9 @@ import unicodedata
 class QuotesSpider(scrapy.Spider): 
 
     searchItem = raw_input('Please enter your search term: ')
+    pw = raw_input('Please enter your database password: ')
 
-    cnx1 = mysql.connector.connect(user='root', password='', database='FORTINOS')
+    cnx1 = mysql.connector.connect(user='root', password=pw, database='FORTINOS')
 
     cursor1 = cnx1.cursor(buffered=True)
 
@@ -31,19 +32,10 @@ class QuotesSpider(scrapy.Spider):
         "  `carbsAmount` decimal(6,2) NOT NULL ,"
         "  `fatAmount` decimal(6,2) NOT NULL ,"
         "  `PPG` decimal(6,2) ,"
+        "  `foodTypeUpper` varchar(100) ,"
+        "  `foodTypeLower` varchar(100) ,"
         "  PRIMARY KEY (`ID`)"
         ") ENGINE=InnoDB;")
-
-
-    try:
-        cnx1.database = DB_NAME1 
-    except mysql.connector.Error as err:
-        if err.errno == errorcode.ER_BAD_DB_ERROR:
-            create_database(cursor)
-            cnx1.database = DB_NAME1
-        else:
-            print(err)
-            exit(1)
 
     for name, ddl in TABLES.iteritems():
         try:
@@ -58,7 +50,7 @@ class QuotesSpider(scrapy.Spider):
             print("OK")
 
     name = "quotes"
-    first_url = 'https://www.fortinos.ca'
+    first_url = 'https://www.fortinos.ca/'
     start_urls = [
         first_url + '/search/page/~item/' + searchItem + '/~sort/recommended/~selected/true',
     ]
@@ -118,7 +110,7 @@ class QuotesSpider(scrapy.Spider):
             firstPrice = response.css('span.reg-price-text::text').extract()[0].encode('utf-8').strip('\n\t')
             price = Decimal(firstPrice.split('$')[1])
         except IndexError:
-            price = 0.00    
+            name = 0.00
         
         #ID IS GOOD TO GO
         try:
@@ -126,12 +118,19 @@ class QuotesSpider(scrapy.Spider):
         except IndexError:
             ID = "NOT FOUND"
 
+        
+
         try:
             PPG = response.css('div.qty').css('span.reg-qty::text').extract()[0].encode('utf-8').strip('\n\t')
             PPG = PPG.split('/')[0].split('$')[1]
         except IndexError:
-            PPG = 0 
+            name = 0.00
+        
+        
 
+        foodTypeUpper = self.normalize(response,4)
+        foodTypeLower = self.normalize(response,5)
+       
         
         amount = 0.00
         label = " "
@@ -143,7 +142,16 @@ class QuotesSpider(scrapy.Spider):
         for i in response.css('div.main-nutrition-attr'):
             label = (i.css('span.nutrition-label::text').extract())[0].encode('utf-8').strip('\n\t')
             amount = (i.css('div.main-nutrition-attr::text').extract())[1].encode('utf-8').strip('\n\t')
-            unit = amount.split(' ')[1]
+            try:
+                unit = amount.split(' ')[1]
+            except IndexError:
+                try:
+                    if type(amount.split(' ')[0]) == type("1"):
+                        unit = amount.split(' ')[0]
+                    else:
+                        unit = "N/A"
+                except IndexError:
+                    unit = "N/A"
             amount = Decimal(amount.split(' ')[0])
             if label == "Total Carbohydrate":
                 carbsAmt = Decimal(amount)
@@ -160,26 +168,27 @@ class QuotesSpider(scrapy.Spider):
           'proteinAmount': proteinAmt,
           'carbsAmount': carbsAmt,
           'fatAmount': fatAmt,
-          'PPG':PPG
+          'PPG':PPG,
+          'foodTypeUpper':foodTypeUpper,
+          'foodTypeLower':foodTypeLower
         }
         
         add_data = ("INSERT INTO " + self.searchItem + " "
-              "(ID, brand, name, price, proteinAmount, carbsAmount, fatAmount, PPG) "
-              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(proteinAmount)s, %(carbsAmount)s, %(fatAmount)s, %(PPG)s)")
+              "(ID, brand, name, price, proteinAmount, carbsAmount, fatAmount, PPG, foodTypeUpper, foodTypeLower) "
+              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(proteinAmount)s, %(carbsAmount)s, %(fatAmount)s, %(PPG)s, %(foodTypeUpper)s, %(foodTypeLower)s)")
 
         
         cursor2.execute(add_data, data)
-        
 
         cnx2.commit()
-
         cursor2.close()
         cnx2.close()
-    def create_database(cursor):
-            try:
-                cursor.execute(
-                    "CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8'".format(DB_NAME))
-            except mysql.connector.Error as err:
-                print("Failed creating database: {}".format(err))
-                exit(1)
 
+    def normalize(self, response,foodNum):
+        foodType = str(response).split('/')[foodNum]
+        if "%26" in foodType:
+            foodType = foodType.replace("%26","&")
+        if "%2C" in foodType:
+            foodType = foodType.replace('%2C','')
+        return foodType
+            

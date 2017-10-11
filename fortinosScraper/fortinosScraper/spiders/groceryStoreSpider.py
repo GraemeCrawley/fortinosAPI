@@ -9,7 +9,7 @@ import string
 import unicodedata
 
 
-class QuotesSpider(scrapy.Spider): 
+class GroceryStoreSpider(scrapy.Spider): 
 
     searchItem = raw_input('Please enter your search term: ')
     pw = raw_input('Please enter your database password: ')
@@ -49,11 +49,9 @@ class QuotesSpider(scrapy.Spider):
         else:
             print("OK")
 
-    name = "quotes"
+    name = "grocery"
     first_url = 'https://www.fortinos.ca/'
-    start_urls = [
-        first_url + '/search/page/~item/' + searchItem + '/~sort/recommended/~selected/true',
-    ]
+    start_urls = [first_url + '/search/page/~item/' + searchItem + '/~sort/recommended/~selected/true']
 
     cnx1.commit()
 
@@ -62,8 +60,7 @@ class QuotesSpider(scrapy.Spider):
     
 
 
-    def parse(self, response):
-
+    def parse(self, response):  
         j = 0
         res = (response.css('div.product-name-wrapper').css('a::attr(href)').extract())
         for i in response.css('div.item'):
@@ -110,7 +107,7 @@ class QuotesSpider(scrapy.Spider):
             firstPrice = response.css('span.reg-price-text::text').extract()[0].encode('utf-8').strip('\n\t')
             price = Decimal(firstPrice.split('$')[1])
         except IndexError:
-            name = 0.00
+            price = 0.00
         
         #ID IS GOOD TO GO
         try:
@@ -122,9 +119,9 @@ class QuotesSpider(scrapy.Spider):
 
         try:
             PPG = response.css('div.qty').css('span.reg-qty::text').extract()[0].encode('utf-8').strip('\n\t')
-            PPG = PPG.split('/')[0].split('$')[1]
+            PPG = Decimal(PPG.split('/')[0].split('$')[1])
         except IndexError:
-            name = 0.00
+            PPG = 0.00
         
         
 

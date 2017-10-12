@@ -119,7 +119,7 @@ class GroceryStoreSpider(scrapy.Spider):
 
         try:
             PPG = response.css('div.qty').css('span.reg-qty::text').extract()[0].encode('utf-8').strip('\n\t')
-            PPG = Decimal(PPG.split('/')[0].split('$')[1])
+            PPG = Decimal(PPG.split('/')[0].split('$')[1].split('\xc2\xa0')[0])
         except IndexError:
             PPG = 0.00
         
@@ -139,6 +139,7 @@ class GroceryStoreSpider(scrapy.Spider):
         for i in response.css('div.main-nutrition-attr'):
             label = (i.css('span.nutrition-label::text').extract())[0].encode('utf-8').strip('\n\t')
             amount = (i.css('div.main-nutrition-attr::text').extract())[1].encode('utf-8').strip('\n\t')
+            qnty = float((response.css('span.nutrition-summary-value::text').extract())[0].encode('utf-8').split(' ')[0].strip('(\n\t'))
             try:
                 unit = amount.split(' ')[1]
             except IndexError:
@@ -149,13 +150,13 @@ class GroceryStoreSpider(scrapy.Spider):
                         unit = "N/A"
                 except IndexError:
                     unit = "N/A"
-            amount = Decimal(amount.split(' ')[0])
+            amount = Decimal((float(amount.split(' ')[0]))/qnty*100)
             if label == "Total Carbohydrate":
-                carbsAmt = Decimal(amount)
+                carbsAmt = amount
             if label == "Protein":
-                proteinAmt = Decimal(amount)
+                proteinAmt = amount
             if label == "Total Fat":
-                fatAmt = Decimal(amount)
+                fatAmt = amount
 
         data = {
           'ID': ID,

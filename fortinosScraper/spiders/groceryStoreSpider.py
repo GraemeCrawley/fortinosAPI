@@ -7,6 +7,7 @@ from mysql.connector import errorcode
 from decimal import *
 import string
 import unicodedata
+import re
 
 
 class GroceryStoreSpider(scrapy.Spider): 
@@ -14,11 +15,13 @@ class GroceryStoreSpider(scrapy.Spider):
     searchItem = raw_input('Please enter your search term: ')
     pw = raw_input('Please enter your database password: ')
 
-    cnx1 = mysql.connector.connect(user='root', password=pw, database='FORTINOS')
+    DB_NAME1 = 'FORTINOS'
+
+    cnx1 = mysql.connector.connect(user='root', password=pw, database=DB_NAME1)
 
     cursor1 = cnx1.cursor(buffered=True)
 
-    DB_NAME1 = 'FORTINOS'
+    
 
 
     TABLES = {}
@@ -28,9 +31,12 @@ class GroceryStoreSpider(scrapy.Spider):
         "  `brand` varchar(100) NOT NULL,"
         "  `name` varchar(100) NOT NULL,"
         "  `price` decimal(6,2) NOT NULL,"
-        "  `proteinAmount` decimal(6,2) NOT NULL ,"
-        "  `carbsAmount` decimal(6,2) NOT NULL ,"
-        "  `fatAmount` decimal(6,2) NOT NULL ,"
+        "  `prot` decimal(6,2) NOT NULL ,"
+        "  `carb` decimal(6,2) NOT NULL ,"
+        "  `fat` decimal(6,2) NOT NULL ,"
+        "  `chol` decimal(6,2) NOT NULL ,"
+        "  `sod` decimal(6,2) NOT NULL ,"
+        "  `pota` decimal(6,2) NOT NULL ,"
         "  `PPG` decimal(6,2) ,"
         "  `foodTypeUpper` varchar(100) ,"
         "  `foodTypeLower` varchar(100) ,"
@@ -42,7 +48,7 @@ class GroceryStoreSpider(scrapy.Spider):
             print("Creating table {}: ".format(name))
             cursor1.execute(ddl)
         except mysql.connector.Error as err:
-            if err.errno == errorcode.ER_TABLE_EXISTS_ERROR:
+            if err.errno == errorcode.ER_TABLE_EXISTS_ERROR: 
                 print("already exists.")
             else:
                 print(err.msg)
@@ -74,11 +80,11 @@ class GroceryStoreSpider(scrapy.Spider):
     def parseTwo(self, response):
 
 
-        cnx2 = mysql.connector.connect(user='root', password='Twelve-4', database='FORTINOS')
+        cnx2 = mysql.connector.connect(user='root', password='Twelve-4', database=self.DB_NAME1)
 
         cursor2 = cnx2.cursor(buffered=True)
 
-        DB_NAME2 = 'FORTINOS'
+        DB_NAME2 = self.DB_NAME1
         
         try:
             cnx2.database = DB_NAME2
@@ -117,11 +123,18 @@ class GroceryStoreSpider(scrapy.Spider):
 
         
 
-        try:
-            PPG = response.css('div.qty').css('span.reg-qty::text').extract()[0].encode('utf-8').strip('\n\t')
-            PPG = Decimal(PPG.split('/')[0].split('$')[1].split('\xc2\xa0')[0])
-        except IndexError:
+   
+        PPG = response.css('div.qty').css('span.reg-qty::text').extract()[0].encode('utf-8').strip('\n\t')
+        if len(PPG.split('/')) < 2:
             PPG = 0.00
+        else:
+            a = PPG.split('/')[1]
+            if(a  == "g" or a == " g"):
+                PPG = Decimal((float(PPG.split('/')[0].split('$')[1].split('\xc2\xa0')[0]))*100)
+            else:
+                PPG = Decimal(PPG.split('/')[0].split('$')[1].split('\xc2\xa0')[0])
+
+        
         
         
 
@@ -132,14 +145,34 @@ class GroceryStoreSpider(scrapy.Spider):
         amount = 0.00
         label = " "
         unit = " "
-        carbsAmt = 0.00
-        proteinAmt = 0.00
-        fatAmt = 0.00
-
+        carb = 0.00
+        prot = 0.00
+        fat = 0.00
+        qnty = None
+        chol = 0.00
+        pota = 0.00
+        sod = 0.00
+        a = None
+        b = None
+        c = None
         for i in response.css('div.main-nutrition-attr'):
             label = (i.css('span.nutrition-label::text').extract())[0].encode('utf-8').strip('\n\t')
             amount = (i.css('div.main-nutrition-attr::text').extract())[1].encode('utf-8').strip('\n\t')
-            qnty = float((response.css('span.nutrition-summary-value::text').extract())[0].encode('utf-8').split(' ')[0].strip('(\n\t'))
+            qnty = (response.css('span.nutrition-summary-value::text').extract())[0].encode('utf-8')
+            a = qnty
+            amountMeasurement = ""
+
+            #Get serving size
+            if re.search('(.*?[g,G,m,M])',qnty) is not None:
+                qnty = re.search('([\d.,\d]\d+ ?[g,G,m,M])',qnty)
+                b = qnty
+                qnty = re.search('\d+',qnty.group(0))
+                c = qnty
+                qnty = float(qnty.group(0))
+            else:
+                qnty = re.search('\d+',qnty)
+                qnty = float(qnty.group(0))
+
             try:
                 unit = amount.split(' ')[1]
             except IndexError:
@@ -150,30 +183,55 @@ class GroceryStoreSpider(scrapy.Spider):
                         unit = "N/A"
                 except IndexError:
                     unit = "N/A"
+
+            print "OKAY"
+
+            amountMeasurement = str(amount.split(' ')[1])
             amount = Decimal((float(amount.split(' ')[0]))/qnty*100)
+            if re.search('([mg,MG,mG,Mg])',amountMeasurement) is not None:
+                amountMeasurement = "g"
+                amount = amount / 1000
             if label == "Total Carbohydrate":
-                carbsAmt = amount
+                print label + ": " + str(amount) + " " + amountMeasurement
+                carb = amount
             if label == "Protein":
-                proteinAmt = amount
+                print label + ": " + str(amount) + " " + amountMeasurement
+                prot = amount
             if label == "Total Fat":
-                fatAmt = amount
+                print label + ": " + str(amount) + " " + amountMeasurement
+                fat = amount
+            if label == "Cholesterol":
+                print label + ": " + str(amount) + " " + amountMeasurement
+                chol = amount
+            if label == "Sodium":
+                print label + ": " + str(amount) + " " + amountMeasurement
+                sod = amount
+            if label == "Potassium":
+                print label + ": " + str(amount) + " " + amountMeasurement
+                pota = amount
+
+
+
 
         data = {
           'ID': ID,
           'brand': brand,
           'name': name,
           'price': price,
-          'proteinAmount': proteinAmt,
-          'carbsAmount': carbsAmt,
-          'fatAmount': fatAmt,
+          'prot': prot,
+          'carb': carb,
+          'fat': fat,
+          'chol': chol,
+          'sod':sod,
+          'pota': pota,
           'PPG':PPG,
           'foodTypeUpper':foodTypeUpper,
           'foodTypeLower':foodTypeLower
         }
         
         add_data = ("INSERT INTO " + self.searchItem + " "
-              "(ID, brand, name, price, proteinAmount, carbsAmount, fatAmount, PPG, foodTypeUpper, foodTypeLower) "
-              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(proteinAmount)s, %(carbsAmount)s, %(fatAmount)s, %(PPG)s, %(foodTypeUpper)s, %(foodTypeLower)s)")
+              "(ID, brand, name, price, prot, carb, fat, chol, sod, pota, PPG, foodTypeUpper, foodTypeLower) "
+              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(prot)s, %(carb)s, %(fat)s, %(chol)s, %(sod)s, %(pota)s, %(PPG)s, %(foodTypeUpper)s, %(foodTypeLower)s)")
 
         
         cursor2.execute(add_data, data)
@@ -189,4 +247,7 @@ class GroceryStoreSpider(scrapy.Spider):
         if "%2C" in foodType:
             foodType = foodType.replace('%2C','')
         return foodType
+
+    def conversion(amount, measurement):
+        print o
             

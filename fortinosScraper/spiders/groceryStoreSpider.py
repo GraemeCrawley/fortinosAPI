@@ -22,7 +22,8 @@ class GroceryStoreSpider(scrapy.Spider):
     cursor1 = cnx1.cursor(buffered=True)
 
     
-
+    searchPage = 2
+    searchPageLimit = 50
 
     TABLES = {}
     TABLES[searchItem] = (
@@ -57,7 +58,7 @@ class GroceryStoreSpider(scrapy.Spider):
 
     name = "grocery"
     first_url = 'https://www.fortinos.ca/'
-    start_urls = [first_url + '/search/page/~item/' + searchItem + '/~sort/recommended/~selected/true']
+    start_urls = [first_url + 'search/showMoreProducts/~item/'+ searchItem + '/~sort/recommended/~selected/true?json=true&itemsLoadedonPage=48']
 
     cnx1.commit()
 
@@ -75,12 +76,19 @@ class GroceryStoreSpider(scrapy.Spider):
                 next_page = response.urljoin(next_page)
                 yield scrapy.Request(next_page, callback=self.parseTwo)
             j=j+1
+        print "SEARCH PAGE: " + str(self.searchPage)
+        print "PAGE LIMIT " + str(self.searchPageLimit)
+        if self.searchPage < self.searchPageLimit:
+                    next_page = response.url.split('fortinos.ca')[1].split('itemsLoadedonPage')[0] + "itemsLoadedonPage=" + str(self.searchPage*48)
+                    self.searchPage+=1
+                    next_page = response.urljoin(next_page)
+                    yield scrapy.Request(next_page, callback=self.parse)
 
 
     def parseTwo(self, response):
 
 
-        cnx2 = mysql.connector.connect(user='root', password='Twelve-4', database=self.DB_NAME1)
+        cnx2 = mysql.connector.connect(user='root', password=self.pw, database=self.DB_NAME1)
 
         cursor2 = cnx2.cursor(buffered=True)
 
@@ -102,7 +110,14 @@ class GroceryStoreSpider(scrapy.Spider):
         brand = brand.strip(' \n\t')
         brand = brand.replace(u'\xa0','').encode('utf-8')
     
+        #ID IS GOOD TO GO
+        try:
+            ID = (response.css('span.product-number').css('span.number::text')).extract()[0].encode('utf-8').strip('\n\t')
+        except IndexError:
+            ID = "NOT FOUND"
 
+        
+    
         try:
             name = response.css('div.row-product-name').css('h1.product-name::text').extract()[1].encode('utf-8').strip('\n\t')
         except IndexError:
@@ -115,11 +130,7 @@ class GroceryStoreSpider(scrapy.Spider):
         except IndexError:
             price = 0.00
         
-        #ID IS GOOD TO GO
-        try:
-            ID = (response.css('span.product-number').css('span.number::text')).extract()[0].encode('utf-8').strip('\n\t')
-        except IndexError:
-            ID = "NOT FOUND"
+        
 
         
 
@@ -129,8 +140,11 @@ class GroceryStoreSpider(scrapy.Spider):
             PPG = 0.00
         else:
             a = PPG.split('/')[1]
-            if(a  == "g" or a == " g"):
+            if(a  == "g" or a == " g" or a == "G" or a == " G"):
                 PPG = Decimal((float(PPG.split('/')[0].split('$')[1].split('\xc2\xa0')[0]))*100)
+            if(a  == "l" or a == " l" or a  == "L" or a == " L"):
+                PPG = Decimal((float(PPG.split('/')[0].split('$')[1].split('\xc2\xa0')[0]))/1000)
+            
             else:
                 PPG = Decimal(PPG.split('/')[0].split('$')[1].split('\xc2\xa0')[0])
 
@@ -184,30 +198,28 @@ class GroceryStoreSpider(scrapy.Spider):
                 except IndexError:
                     unit = "N/A"
 
-            print "OKAY"
-
             amountMeasurement = str(amount.split(' ')[1])
             amount = Decimal((float(amount.split(' ')[0]))/qnty*100)
-            if re.search('([mg,MG,mG,Mg])',amountMeasurement) is not None:
+            if amountMeasurement == "MG" or amountMeasurement == "mg" or amountMeasurement == "Mg" or amountMeasurement == "mG":
                 amountMeasurement = "g"
                 amount = amount / 1000
             if label == "Total Carbohydrate":
-                print label + ": " + str(amount) + " " + amountMeasurement
+                #print "amnt4: " + label + ": " + str(amount) + " " + amountMeasurement
                 carb = amount
             if label == "Protein":
-                print label + ": " + str(amount) + " " + amountMeasurement
+                #print "amnt5: " + label + ": " + str(amount) + " " + amountMeasurement
                 prot = amount
             if label == "Total Fat":
-                print label + ": " + str(amount) + " " + amountMeasurement
+                #print "amnt6: " + label + ": " + str(amount) + " " + amountMeasurement
                 fat = amount
             if label == "Cholesterol":
-                print label + ": " + str(amount) + " " + amountMeasurement
+                #print "amnt7: " + label + ": " + str(amount) + " " + amountMeasurement
                 chol = amount
             if label == "Sodium":
-                print label + ": " + str(amount) + " " + amountMeasurement
+                #print "amnt7: " + label + ": " + str(amount) + " " + amountMeasurement
                 sod = amount
             if label == "Potassium":
-                print label + ": " + str(amount) + " " + amountMeasurement
+                #print "amnt7: " + label + ": " + str(amount) + " " + amountMeasurement
                 pota = amount
 
 
@@ -228,7 +240,7 @@ class GroceryStoreSpider(scrapy.Spider):
           'foodTypeUpper':foodTypeUpper,
           'foodTypeLower':foodTypeLower
         }
-        
+
         add_data = ("INSERT INTO " + self.searchItem + " "
               "(ID, brand, name, price, prot, carb, fat, chol, sod, pota, PPG, foodTypeUpper, foodTypeLower) "
               "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(prot)s, %(carb)s, %(fat)s, %(chol)s, %(sod)s, %(pota)s, %(PPG)s, %(foodTypeUpper)s, %(foodTypeLower)s)")

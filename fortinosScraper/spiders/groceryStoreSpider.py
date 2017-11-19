@@ -1,7 +1,5 @@
 import scrapy
 import unicodedata
-import urllib2
-from bs4 import BeautifulSoup
 import mysql.connector
 from mysql.connector import errorcode
 from decimal import *
@@ -196,7 +194,6 @@ class GroceryStoreSpider(scrapy.Spider):
         a = None
         b = None
         c = None
-        #print type(response.css('*.main-nutrition-attr'))
         for i in response.css('div.first'):
             label = ""
             amount = 0.00
@@ -320,7 +317,3 @@ class GroceryStoreSpider(scrapy.Spider):
         if "%2C" in foodType:
             foodType = foodType.replace('%2C','')
         return foodType
-
-    def conversion(amount, measurement):
-        print o
-            

@@ -17,4 +17,4 @@ With the above in mind, the values in the image are as follows:
   
   
   
-These values are per day, meaning you could survive spending $1.89 a week. Next steps are to include sugar, fiber, and other nutrional constraints with the goal of making the optimal solution more believable in terms of an everyday diet.
+These values are per day, meaning you could survive spending $1.89 a week. Next steps are to include sugar, fiber, and other nutrional constraints with the goal of making the optimal solution more reasonable in terms of an everyday diet.

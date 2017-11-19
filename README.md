@@ -11,11 +11,8 @@ Below is the output of the CPLEX optimization model, currently minimizing price 
 With the above in mind, the values in the image are as follows:
 
   Objective: $0.27
-  
   Yellow Split Peas: 92.97g
-  
   Gingerbread, Apple: 471.28g
-  
   Swiss Cheese: 226.25g
   
   

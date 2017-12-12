@@ -20,7 +20,7 @@ class GroceryStoreSpider(scrapy.Spider):
     else:
         tableName = searchItem
 
-    DB_NAME1 = 'FORTINOS'
+    DB_NAME1 = 'FORTINOSSUGAR'
 
     cnx1 = mysql.connector.connect(user='root', password=pw, database=DB_NAME1)
 
@@ -28,11 +28,9 @@ class GroceryStoreSpider(scrapy.Spider):
 
     
     searchPage = 2
-<<<<<<< HEAD
-    searchPageLimit = 50
-=======
-    searchPageLimit = 4
->>>>>>> cc49340... created optimization model for nutrition based on lowest cost/100g. Results of a couple of tests are in 'subproblems' file. Done for tonight.
+
+
+    searchPageLimit = 276
 
     TABLES = {}
     TABLES[tableName] = (
@@ -41,13 +39,23 @@ class GroceryStoreSpider(scrapy.Spider):
         "  `brand` varchar(100) NOT NULL,"
         "  `name` varchar(100) NOT NULL,"
         "  `price` decimal(6,2) NOT NULL,"
+        "  `PPG` decimal(6,2) ,"
         "  `prot` decimal(6,2) NOT NULL ,"
         "  `carb` decimal(6,2) NOT NULL ,"
         "  `fat` decimal(6,2) NOT NULL ,"
         "  `chol` decimal(6,2) NOT NULL ,"
         "  `sod` decimal(6,2) NOT NULL ,"
         "  `pota` decimal(6,2) NOT NULL ,"
-        "  `PPG` decimal(6,2) ,"
+        "  `satfat` decimal(6,2) NOT NULL ,"
+        "  `transfat` decimal(6,2) NOT NULL ,"
+        "  `polyfat` decimal(6,2) NOT NULL ,"
+        "  `omega` decimal(6,2) NOT NULL ,"
+        "  `epa` decimal(6,2) NOT NULL ,"
+        "  `dha` decimal(6,2) NOT NULL ,"
+        "  `monofat` decimal(6,2) NOT NULL ,"
+        "  `dietfiber` decimal(6,2) NOT NULL ,"
+        "  `sugars` decimal(6,2) NOT NULL ,"
+        "  `othercarb` decimal(6,2) NOT NULL ,"
         "  `foodTypeUpper` varchar(100) ,"
         "  `foodTypeLower` varchar(100) ,"
         "  PRIMARY KEY (`ID`)"
@@ -88,7 +96,7 @@ class GroceryStoreSpider(scrapy.Spider):
         print "SEARCH PAGE: " + str(self.searchPage)
         print "PAGE LIMIT " + str(self.searchPageLimit)
         if self.searchPage < self.searchPageLimit:
-                    next_page = response.url.split('fortinos.ca')[1].split('itemsLoadedonPage')[0] + "itemsLoadedonPage=" + str(self.searchPage+1)
+                    next_page = response.url.split('fortinos.ca')[1].split('itemsLoadedonPage')[0] + "itemsLoadedonPage=" + str(self.searchPage*48)
                     self.searchPage+=1
                     next_page = response.urljoin(next_page)
                     yield scrapy.Request(next_page, callback=self.parse)
@@ -175,12 +183,32 @@ class GroceryStoreSpider(scrapy.Spider):
         chol = 0.00
         pota = 0.00
         sod = 0.00
+        satfat = 0.00
+        transfat = 0.00
+        polyfat = 0.00
+        omega = 0.00
+        epa = 0.00
+        dha = 0.00
+        monofat = 0.00
+        dietfiber = 0.00
+        sugars = 0.00
+        othercarb = 0.00
         a = None
         b = None
         c = None
-        for i in response.css('div.main-nutrition-attr'):
-            label = (i.css('span.nutrition-label::text').extract())[0].encode('utf-8').strip('\n\t')
-            amount = (i.css('div.main-nutrition-attr::text').extract())[1].encode('utf-8').strip('\n\t')
+        #print type(response.css('*.main-nutrition-attr'))
+        for i in response.css('div.first'):
+            label = ""
+            amount = 0.00
+            subLabel = ""
+            subAmount = 0.00
+           
+            try:
+                label = i.css('span.nutrition-label::text').extract()[0].encode('utf-8').strip('\n\t')
+                amount = (i.css('div.first::text').extract())[1].encode('utf-8').strip('\n\t')    
+            except IndexError:
+                continue
+    
             qnty = (response.css('span.nutrition-summary-value::text').extract())[0].encode('utf-8')
             a = qnty
             amountMeasurement = ""
@@ -213,23 +241,37 @@ class GroceryStoreSpider(scrapy.Spider):
                 amountMeasurement = "g"
                 amount = amount / 1000
             if label == "Total Carbohydrate":
-                #print "amnt4: " + label + ": " + str(amount) + " " + amountMeasurement
                 carb = amount
             if label == "Protein":
-                #print "amnt5: " + label + ": " + str(amount) + " " + amountMeasurement
                 prot = amount
             if label == "Total Fat":
-                #print "amnt6: " + label + ": " + str(amount) + " " + amountMeasurement
                 fat = amount
             if label == "Cholesterol":
-                #print "amnt7: " + label + ": " + str(amount) + " " + amountMeasurement
                 chol = amount
             if label == "Sodium":
-                #print "amnt7: " + label + ": " + str(amount) + " " + amountMeasurement
                 sod = amount
             if label == "Potassium":
-                #print "amnt7: " + label + ": " + str(amount) + " " + amountMeasurement
                 pota = amount
+            if label == "Saturated Fat":
+                satfat = amount
+            if label == "Trans. Fat":
+                transfat = amount
+            if label == "Polyunsaturated Fat":
+                polyfat = amount
+            if label == "Omega":
+                omega = amount
+            if label == "EPA":
+                epa = amount
+            if label == "DHA":
+                dha = amount
+            if label == "Monounsaturated Fat":
+                monofat = amount
+            if label == "Dietary Fiber":
+                dietfiber = amount
+            if label == "Sugars":
+                sugars = amount
+            if label == "Other Carbohydrate":
+                othercarb = amount
 
 
 
@@ -239,20 +281,30 @@ class GroceryStoreSpider(scrapy.Spider):
           'brand': brand,
           'name': name,
           'price': price,
+          'PPG':PPG,
           'prot': prot,
           'carb': carb,
           'fat': fat,
           'chol': chol,
           'sod':sod,
           'pota': pota,
-          'PPG':PPG,
+          'satfat': satfat,
+          'transfat': transfat,
+          'polyfat': polyfat,
+          'omega': omega,
+          'epa': epa,
+          'dha': dha,
+          'monofat': monofat,
+          'dietfiber': dietfiber,
+          'sugars':sugars,
+          'othercarb': othercarb,
           'foodTypeUpper':foodTypeUpper,
           'foodTypeLower':foodTypeLower
         }
 
         add_data = ("INSERT INTO " + self.tableName + " "
-              "(ID, brand, name, price, prot, carb, fat, chol, sod, pota, PPG, foodTypeUpper, foodTypeLower) "
-              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(prot)s, %(carb)s, %(fat)s, %(chol)s, %(sod)s, %(pota)s, %(PPG)s, %(foodTypeUpper)s, %(foodTypeLower)s)")
+              "(ID, brand, name, price, PPG, prot, carb, fat, chol, sod, pota, satfat, transfat, polyfat, omega, epa, dha, monofat, dietfiber, sugars, othercarb, foodTypeUpper, foodTypeLower) "
+              "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(PPG)s, %(prot)s, %(carb)s, %(fat)s, %(chol)s, %(sod)s, %(pota)s, %(satfat)s, %(transfat)s, %(polyfat)s, %(omega)s, %(epa)s, %(dha)s, %(monofat)s, %(dietfiber)s, %(sugars)s, %(othercarb)s, %(foodTypeUpper)s, %(foodTypeLower)s)")
 
         
         cursor2.execute(add_data, data)

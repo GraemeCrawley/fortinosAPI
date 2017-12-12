@@ -14,6 +14,11 @@ class GroceryStoreSpider(scrapy.Spider):
 
     searchItem = raw_input('Please enter your search term: ')
     pw = raw_input('Please enter your database password: ')
+    if len(searchItem.split(' ')) > 1:
+	   tableName = "".join(searchItem.split(' '))
+	   searchItem = "+".join(searchItem.split(' '))
+    else:
+        tableName = searchItem
 
     DB_NAME1 = 'FORTINOS'
 
@@ -23,11 +28,15 @@ class GroceryStoreSpider(scrapy.Spider):
 
     
     searchPage = 2
+<<<<<<< HEAD
     searchPageLimit = 50
+=======
+    searchPageLimit = 4
+>>>>>>> cc49340... created optimization model for nutrition based on lowest cost/100g. Results of a couple of tests are in 'subproblems' file. Done for tonight.
 
     TABLES = {}
-    TABLES[searchItem] = (
-        "CREATE TABLE " + searchItem + " ("
+    TABLES[tableName] = (
+        "CREATE TABLE " + tableName + " ("
         "  `ID` varchar(100) NOT NULL,"
         "  `brand` varchar(100) NOT NULL,"
         "  `name` varchar(100) NOT NULL,"
@@ -79,7 +88,7 @@ class GroceryStoreSpider(scrapy.Spider):
         print "SEARCH PAGE: " + str(self.searchPage)
         print "PAGE LIMIT " + str(self.searchPageLimit)
         if self.searchPage < self.searchPageLimit:
-                    next_page = response.url.split('fortinos.ca')[1].split('itemsLoadedonPage')[0] + "itemsLoadedonPage=" + str(self.searchPage*48)
+                    next_page = response.url.split('fortinos.ca')[1].split('itemsLoadedonPage')[0] + "itemsLoadedonPage=" + str(self.searchPage+1)
                     self.searchPage+=1
                     next_page = response.urljoin(next_page)
                     yield scrapy.Request(next_page, callback=self.parse)
@@ -241,7 +250,7 @@ class GroceryStoreSpider(scrapy.Spider):
           'foodTypeLower':foodTypeLower
         }
 
-        add_data = ("INSERT INTO " + self.searchItem + " "
+        add_data = ("INSERT INTO " + self.tableName + " "
               "(ID, brand, name, price, prot, carb, fat, chol, sod, pota, PPG, foodTypeUpper, foodTypeLower) "
               "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(prot)s, %(carb)s, %(fat)s, %(chol)s, %(sod)s, %(pota)s, %(PPG)s, %(foodTypeUpper)s, %(foodTypeLower)s)")
 

@@ -22,4 +22,4 @@ These values are per day, meaning you could survive spending $1.89 a week. Next 
 
 ## Update2:
 
-Was given the opportunity to present my findings a few weeks back. The PDF is labelled "Practical Applications Of Linear Optimization" and can be found in the source folder.
+Was given the opportunity to present my findings a few weeks back. The PDF is labelled "Practical Applications Of Linear Optimization" and can be found in the source folder. Also uploaded a spreadsheet with all the collected data (it's not perfect, but it does its job for now).

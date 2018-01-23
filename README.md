@@ -18,3 +18,8 @@ With the above in mind, the values in the image are as follows:
   
   
 These values are per day, meaning you could survive spending $1.89 a week. Next steps are to include sugar, fiber, and other nutrional constraints with the goal of making the optimal solution more reasonable in terms of an everyday diet.
+
+
+##Update2:
+
+Was given the opportunity to present my findings a few weeks back. The PDF is labelled "Practical Applications Of Linear Optimization" and can be found in the source folder.

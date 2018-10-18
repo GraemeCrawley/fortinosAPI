@@ -4,16 +4,21 @@ import mysql.connector
 import string
 import unicodedata
 import re
+import getpass
 from mysql.connector import errorcode
 from decimal import *
-import getpass
 
 
 # Main class for crawling
 class GroceryStoreSpider(scrapy.Spider): 
+    AWS_ACCESS_KEY_ID = ""
+    AWS_SECRET_ACCESS_KEY = ""
+    DOWNLOAD_HANDLERS = {
+        's3': None,
+    }
 
     searchItem = raw_input('Please enter your search term: ')
-    pw = getpass.getpass('Please enter your database password:')
+    pw = getpass.getpass('Please enter your database password: ')
 
     # Deal with spaces in search terms
     if len(searchItem.split(' ')) > 1:
@@ -26,7 +31,7 @@ class GroceryStoreSpider(scrapy.Spider):
     cnx1 = mysql.connector.connect(user='root', password=pw, database=DB_NAME1)
     cursor1 = cnx1.cursor(buffered=True)
     searchPage = 2
-    searchPageLimit = 276
+    searchPageLimit = 12
 
     # Setup table with schema
     TABLES = {}
@@ -91,12 +96,11 @@ class GroceryStoreSpider(scrapy.Spider):
             next_page = res[j]
             if next_page is not None:
                 next_page = response.urljoin(next_page)
-                # Call parseInfo to parse the info page
                 yield scrapy.Request(next_page, callback=self.parseInfo)
             j=j+1
         print "SEARCH PAGE: " + str(self.searchPage)
         print "PAGE LIMIT " + str(self.searchPageLimit)
-        # Check to see if we've reached the end of the page
+        # Check to see if we've reached the end of the search page
         if self.searchPage < self.searchPageLimit:
                     next_page = response.url.split('fortinos.ca')[1].split('itemsLoadedonPage')[0] + "itemsLoadedonPage=" + str(self.searchPage*48)
                     self.searchPage+=1
@@ -109,9 +113,7 @@ class GroceryStoreSpider(scrapy.Spider):
 
 
         cnx2 = mysql.connector.connect(user='root', password=self.pw, database=self.DB_NAME1)
-
         cursor2 = cnx2.cursor(buffered=True)
-
         DB_NAME2 = self.DB_NAME1
         
         try:
@@ -124,20 +126,19 @@ class GroceryStoreSpider(scrapy.Spider):
                 print(err)
                 exit(1)
 
-
+        # Start pulling product info
         brand = response.css('div.row-product-name').css('span.product-sub-title::text').extract()[0]
         unicodedata.normalize('NFKD', brand).encode('ascii','ignore')
         brand = brand.strip(' \n\t')
         brand = brand.replace(u'\xa0','').encode('utf-8')
     
-        #ID IS GOOD TO GO
+        # ID IS GOOD TO GO
         try:
             ID = (response.css('span.product-number').css('span.number::text')).extract()[0].encode('utf-8').strip('\n\t')
         except IndexError:
             ID = "NOT FOUND"
 
         
-    
         try:
             name = response.css('div.row-product-name').css('h1.product-name::text').extract()[1].encode('utf-8').strip('\n\t')
         except IndexError:
@@ -154,7 +155,7 @@ class GroceryStoreSpider(scrapy.Spider):
 
         
 
-   
+        # Pull the price per 100g
         PPG = response.css('div.qty').css('span.reg-qty::text').extract()[0].encode('utf-8').strip('\n\t')
         if len(PPG.split('/')) < 2:
             PPG = 0.00
@@ -199,6 +200,8 @@ class GroceryStoreSpider(scrapy.Spider):
         a = None
         b = None
         c = None
+
+        # Go through the nutritinal info
         for i in response.css('div.first'):
             label = ""
             amount = 0.00
@@ -236,7 +239,10 @@ class GroceryStoreSpider(scrapy.Spider):
                         unit = "N/A"
                 except IndexError:
                     unit = "N/A"
+            if(qnty == 0):
+                qnty = 1
 
+            # Get nutritional info based on labels
             amountMeasurement = str(amount.split(' ')[1])
             amount = Decimal((float(amount.split(' ')[0]))/qnty*100)
             if amountMeasurement == "MG" or amountMeasurement == "mg" or amountMeasurement == "Mg" or amountMeasurement == "mG":
@@ -277,7 +283,7 @@ class GroceryStoreSpider(scrapy.Spider):
 
 
 
-
+        # Create the data kv pairs to be uploaded
         data = {
           'ID': ID,
           'brand': brand,
@@ -304,6 +310,7 @@ class GroceryStoreSpider(scrapy.Spider):
           'foodTypeLower':foodTypeLower
         }
 
+        # Add data to the created table
         add_data = ("INSERT INTO " + self.tableName + " "
               "(ID, brand, name, price, PPG, prot, carb, fat, chol, sod, pota, satfat, transfat, polyfat, omega, epa, dha, monofat, dietfiber, sugars, othercarb, foodTypeUpper, foodTypeLower) "
               "VALUES (%(ID)s, %(brand)s, %(name)s, %(price)s, %(PPG)s, %(prot)s, %(carb)s, %(fat)s, %(chol)s, %(sod)s, %(pota)s, %(satfat)s, %(transfat)s, %(polyfat)s, %(omega)s, %(epa)s, %(dha)s, %(monofat)s, %(dietfiber)s, %(sugars)s, %(othercarb)s, %(foodTypeUpper)s, %(foodTypeLower)s)")
@@ -315,6 +322,7 @@ class GroceryStoreSpider(scrapy.Spider):
         cursor2.close()
         cnx2.close()
 
+    # Function to normalise specific text anomalies
     def normalize(self, response,foodNum):
         foodType = str(response).split('/')[foodNum]
         if "%26" in foodType:

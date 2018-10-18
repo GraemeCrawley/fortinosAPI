@@ -1,17 +1,21 @@
 import scrapy
 import unicodedata
 import mysql.connector
-from mysql.connector import errorcode
-from decimal import *
 import string
 import unicodedata
 import re
+from mysql.connector import errorcode
+from decimal import *
+import getpass
 
 
+# Main class for crawling
 class GroceryStoreSpider(scrapy.Spider): 
 
     searchItem = raw_input('Please enter your search term: ')
-    pw = raw_input('Please enter your database password: ')
+    pw = getpass.getpass('Please enter your database password:')
+
+    # Deal with spaces in search terms
     if len(searchItem.split(' ')) > 1:
 	   tableName = "".join(searchItem.split(' '))
 	   searchItem = "+".join(searchItem.split(' '))
@@ -19,17 +23,12 @@ class GroceryStoreSpider(scrapy.Spider):
         tableName = searchItem
 
     DB_NAME1 = 'FORTINOSSUGAR'
-
     cnx1 = mysql.connector.connect(user='root', password=pw, database=DB_NAME1)
-
     cursor1 = cnx1.cursor(buffered=True)
-
-    
     searchPage = 2
-
-
     searchPageLimit = 276
 
+    # Setup table with schema
     TABLES = {}
     TABLES[tableName] = (
         "CREATE TABLE " + tableName + " ("
@@ -59,6 +58,7 @@ class GroceryStoreSpider(scrapy.Spider):
         "  PRIMARY KEY (`ID`)"
         ") ENGINE=InnoDB;")
 
+    # Use schema to create table
     for name, ddl in TABLES.iteritems():
         try:
             print("Creating table {}: ".format(name))
@@ -71,28 +71,32 @@ class GroceryStoreSpider(scrapy.Spider):
         else:
             print("OK")
 
+    # Setup url
     name = "grocery"
     first_url = 'https://www.fortinos.ca/'
     start_urls = [first_url + 'search/showMoreProducts/~item/'+ searchItem + '/~sort/recommended/~selected/true?json=true&itemsLoadedonPage=48']
 
-    cnx1.commit()
 
+    cnx1.commit()
     cursor1.close()
     cnx1.close()
     
 
-
+    # First parse level, used for search page
     def parse(self, response):  
         j = 0
         res = (response.css('div.product-name-wrapper').css('a::attr(href)').extract())
+        # Loop through each item
         for i in response.css('div.item'):
             next_page = res[j]
             if next_page is not None:
                 next_page = response.urljoin(next_page)
-                yield scrapy.Request(next_page, callback=self.parseTwo)
+                # Call parseInfo to parse the info page
+                yield scrapy.Request(next_page, callback=self.parseInfo)
             j=j+1
         print "SEARCH PAGE: " + str(self.searchPage)
         print "PAGE LIMIT " + str(self.searchPageLimit)
+        # Check to see if we've reached the end of the page
         if self.searchPage < self.searchPageLimit:
                     next_page = response.url.split('fortinos.ca')[1].split('itemsLoadedonPage')[0] + "itemsLoadedonPage=" + str(self.searchPage*48)
                     self.searchPage+=1
@@ -100,7 +104,8 @@ class GroceryStoreSpider(scrapy.Spider):
                     yield scrapy.Request(next_page, callback=self.parse)
 
 
-    def parseTwo(self, response):
+    # Second parse level, used for information page
+    def parseInfo(self, response):
 
 
         cnx2 = mysql.connector.connect(user='root', password=self.pw, database=self.DB_NAME1)
